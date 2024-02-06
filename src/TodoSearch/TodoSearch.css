@@ -1,0 +1,21 @@
+.TodoSearch{
+    background-color: #F9FBFC;
+    border-radius: 2px;
+    border: 2px solid #202329;
+    margin: 0 50px;
+    height: 64px;
+    width: calc(100% - 100px);
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Dancing Script';
+    color: #202329;
+    box-shadow: 0px 5px 50px rgba(5, 88, 254, 0.296);
+}
+
+.TodoSearch::placeholder{
+    color: #A5A5A5;
+}
+
+.TodoSearch:focus{
+    outline-color: #61dafa;
+}
